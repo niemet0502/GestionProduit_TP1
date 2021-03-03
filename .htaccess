@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteRule ^service/liste$ src/view/service/list.php
+RewriteRule ^employe/liste$ src/view/employe/list.php
+RewriteRule ^pointage/liste$ src/view/pointage/list.php
+
+RewriteRule ^produitController$ src/controller/produitController.php
+RewriteRule ^index$ index.php
+
+
